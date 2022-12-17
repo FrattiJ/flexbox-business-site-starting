@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(105,105,105,.95);
+    background-color: rgb(105,105,105,.90);
 }
 
 header .head {
@@ -121,6 +121,11 @@ main {
 .projects img {
     width: 450px;
     height: 350px;
+}
+
+#frog:active {
+    transform: scale(1.9);
+    background-color: green;
 }
 
 .projects h3 {
