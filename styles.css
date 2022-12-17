@@ -1,7 +1,11 @@
 html {
     margin: 0px;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(105,105,105);
+}
+
+body {
+    margin: 0px;
 }
 
 /* Header and Logo */
@@ -16,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(105,105,105,.95);
 }
 
 header .head {
@@ -25,13 +29,33 @@ header .head {
 
 header img {
     width: 200px;
+    transition: all .2s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header img:active {
+    transform: scale(0.9);
 }
 
 /* Nav Bar */
 
 nav div {
     display: inline-flex;
-    width: 100px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    }
+
+nav div:hover {
+    transform: scale(1.1);
+}
+
+nav div:active {
+    transform: scale(0.9);
 }
 
 nav a {
@@ -50,11 +74,11 @@ main {
 
 .mission-container {
     margin: 0 auto;
-    background-image: url(./Images/space.jpg);
+    background-image: url(./Images/Zen.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 80%;
+    width: 100%;
     height: 800px;
     display: flex;
     justify-content: center;
@@ -62,10 +86,15 @@ main {
 
 .statement {
     margin: auto;
-    width: 100%;
+    width: 80%;
     padding: 20px;
-    background-color: grey;
     font-size: xx-large;
+    opacity: .90;
+    transition: all .2s ease-in-out;
+}
+
+.statement:hover {
+    transform: scale(1.1);
 }
 
 .statement h2 {
@@ -78,13 +107,20 @@ main {
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 
 .projects {
     margin: 0 5px;
     display: inline-block;
     border: solid 1px black;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    background-color: gray;
+}
+
+.projects:hover {
+    transform: scale(1.1);
 }
 
 .projects img {
@@ -100,7 +136,12 @@ main {
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
+}
+
+img {
+    border-radius: 10px;
+    
 }
 
 p {
@@ -112,10 +153,24 @@ p {
 footer {
     border-top: solid 1px black;
     bottom: 0px;
+    height: 50px;
 }
 
 .footer img {
     height: 35px;
     display: inline-block;
-   padding: 0 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all .2s ease-in-out;
+    vertical-align: center;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+}
+
+.footer img:active {
+    transform: scale(0.9);
 }
