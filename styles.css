@@ -1,0 +1,121 @@
+html {
+    margin: 0px;
+    text-align: center;
+    background-color: grey;
+}
+
+/* Header and Logo */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px black;
+    background-color: white;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+header .head {
+    display: flex;
+}
+
+header img {
+    width: 200px;
+}
+
+/* Nav Bar */
+
+nav div {
+    display: inline-flex;
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+/* Mission Statement */
+
+.mission-container {
+    margin: 0 auto;
+    background-image: url(./Images/space.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.statement {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: grey;
+    font-size: xx-large;
+}
+
+.statement h2 {
+    text-decoration: underline;
+}
+
+/* About Us */
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.projects {
+    margin: 0 5px;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+.projects img {
+    width: 450px;
+    height: 350px;
+}
+
+.projects h3 {
+    text-decoration: underline;
+}
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+p {
+    width: 450px;
+}
+
+/* Footer */
+
+footer {
+    border-top: solid 1px black;
+    bottom: 0px;
+}
+
+.footer img {
+    height: 35px;
+    display: inline-block;
+   padding: 0 40px;
+}
