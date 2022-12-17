@@ -90,11 +90,6 @@ main {
     padding: 20px;
     font-size: xx-large;
     opacity: .90;
-    transition: all .2s ease-in-out;
-}
-
-.statement:hover {
-    transform: scale(1.1);
 }
 
 .statement h2 {
